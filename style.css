@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Single Day', cursive;
+    background-color:azure;
+}
+.navbar{
+    background-color:darkmagenta;
+    color:coral;
+    opacity:0.9;
+    padding: 10px;
+}
+.container{
+    padding:10px;
+}
+.book-container{
+    text-align: left;
+    padding:20px;
+    margin:20px;
+    width:40%;
+    background-color:bisque;
+    
+    border-radius: 15px;
+    border-style:dashed;
+    border-width: 5px;
+    border-color:darkblue;
+    display: inline-block;
+    vertical-align: top;
+}
+.book-container h2{
+color:brown;
+}
+.book-container button{
+color:deeppink;
+font-weight: 900;
+background-color: aquamarine;
+border-radius: 50%;
+padding: 10px;
+border-color: deeppink;
+border-width: 2px;
+}
+.add-btn{
+    background-color: aqua;
+    border-radius: 50%;
+    padding: 20px;
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    border:none;
+    font-size: 20px;
+    color:crimson;
+    font-weight: bolder;
+}
+.popup-overlay{
+    background-color: aquamarine;
+    opacity:0.6;
+    position: absolute;
+    width :100%;
+height: 100%;
+z-index: 1;
+top:0;
+left:0;
+display:none;
+}
+.popup-container{
+    background-color: beige;
+    width: 40%;
+    padding:60px;
+    position: absolute;
+    z-index:2;
+    top:20%;
+    left:25%;
+    border-radius: 50%;
+    text-align: center;
+    display:none;
+}
+.popup-container input{
+background: transparent;
+border: none;
+width:100%;
+margin:5px;
+padding:10px;
+font-size: 15px;
+border-bottom: solid blue 2px;
+}
+.popup-container textarea{
+background: transparent;
+border: solid blue 2px;
+width:100%;
+margin:5px;
+padding:10px;
+font-size: 15px;
+
+}
+.popup-container input:focus{
+    outline: none;
+}
+.popup-container input::placeholder{
+    color:black;
+
+}
+.popup-container textarea::placeholder{
+    color:black;
+
+}
+
+.popup-container button{
+    background-color: black;
+    border-radius: 45%;
+    color:coral;
+    font-size: large;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px;
+    border-color: coral;
+    border-width: 3px;
+}

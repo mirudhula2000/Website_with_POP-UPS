@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leafy-Reads</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>Leafy-Reads</h1>
+    </div>
+    <div class="container">
+<div class="book-container">
+<h2>Harry Potter and the Philosopher's Stone</h2>
+<h3>J.K.Rowling</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quae nemo ducimus illum ipsam doloribus error minus eveniet aliquid quisquam reiciendis odit incidunt aliquam, tempora aperiam. Dolorem, sed velit sit ex commodi recusandae porro! Modi et perspiciatis illum cumque fugiat harum dignissimos accusamus necessitatibus suscipit nemo? Voluptatibus porro dolore soluta.</p>
+<button onclick="deletebutton(event)">Delete</button>
+</div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-container">
+        <h2>Add a Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="bookname" value="">
+            <input type="text" placeholder="Book Author" id="bookauthor">
+            <textarea placeholder="Description" id="decsp"></textarea>
+            <button  id="addition">ADD</button>
+            <button  id="deletion">CANCEL</button>
+            
+        </form>
+    </div>
+    <button class="add-btn" id="add=popup">+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
